@@ -126,7 +126,8 @@
                "sourceStrategy": {
                   "from": {
                      "kind": "ImageStreamTag",
-                     "name": "jboss-eap-6:${EAP_RELEASE}"
+                     "name": "jboss-eap-6:${EAP_RELEASE}",
+                     "namespace": "misplantillas"
                   }
                }
             },
