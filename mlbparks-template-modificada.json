@@ -126,8 +126,7 @@
                "sourceStrategy": {
                   "from": {
                      "kind": "ImageStreamTag",
-                     "namespace": "openshift",
-                     "name": "jboss-eap6-openshift:${EAP_RELEASE}"
+                     "name": "jboss-eap-6:${EAP_RELEASE}"
                   }
                }
             },
