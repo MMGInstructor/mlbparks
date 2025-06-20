@@ -38,10 +38,10 @@ objects:
     - annotations: null
       from:
         kind: DockerImage
-        name: registry.access.redhat.com/rhscl/mariadb-102-rhel7
+        name: registry.access.redhat.com/rhscl/mariadb-100-rhel7
       importPolicy:
         importMode: Legacy
-      name: "10.2"
+      name: "10.0"
       referencePolicy:
         type: Source
 - apiVersion: v1
@@ -172,7 +172,7 @@ parameters:
   displayName: Database Service Name
   name: DATABASE_SERVICE_NAME
   required: true
-  value: mysql
+  value: mariadb
 - description: Username for MySQL user that will be used for accessing the database.
   displayName: MySQL Connection Username
   from: user[A-Z0-9]{3}
